@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --corfundo:#EFF8FF;
+    --fontprincipal:"Inter", sans-serif;
+    --fontsecondaria:"Sora", sans-serif;
+    --textparagrafo:#6E7275;
+    --fundocard:#293145;
+}
+/* pagina iniciada para celular */
+h1{
+
+}
+/* orientacao desktop */
+@media screen and (orientation:landscape) {
+    
+}
