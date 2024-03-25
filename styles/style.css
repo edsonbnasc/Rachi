@@ -16,7 +16,9 @@
     --fundoazul:#0F9AFE;
 }
 /* pagina iniciada para celular */
-
+body{
+    overflow-x: hidden;
+}
 header{
     padding: 40px;
     margin-top: 50px;
@@ -94,7 +96,16 @@ border: none;
 cursor: pointer;
 
 }
-
+.preco{
+    font-size: 24px;
+    /* color: #333; */
+}
+.valor{
+    font-size: 36px;
+}
+.centavos{
+    font-size: 18px;
+}
 
 
 
