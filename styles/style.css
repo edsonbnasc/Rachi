@@ -23,7 +23,7 @@ header{
     padding: 40px;
     margin-top: 50px;
     background-color: var(--corfundo);
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .header-style{
@@ -66,24 +66,38 @@ header{
 .nav_bar>ul{
 display: flex;
 flex-direction: column;
-height: 100%;
+height: 80%;
 list-style-type: none;
 justify-content: center;
 align-items: center;
 justify-content: space-evenly;
 }
+.nav_bar>ul>li>a{
+    text-decoration: none;
+}
 
 .figure-styles>img{
-    width: 400px;
+    width: 300px;
     height: 250px;
+}
 
+.bi-list{
+    background-color: var(--corfundo);
+    border: none;
+    font-size: 30px;
+}
+.bi-list:hover{
+    cursor: pointer;
+}
 
+#handleNavbar{
+    border: none;
 }
 
 .article-style{
     width: 250px;
-margin-bottom:30px ;
-   gap: 30px;
+    margin-bottom:30px ;
+    gap: 30px;
 }
 
 .article-style>button{
@@ -92,22 +106,127 @@ margin-bottom:30px ;
     color: white;
     background-color: var(--fundoazul);
     border-radius: 20px;
-border: none;
-cursor: pointer;
+    border: none;
+    cursor: pointer;
 
 }
+.plays-style{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--corfundo);
+}
+
+.plays-style>div>img{
+    width: 150px;
+}
+
+.main-style{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.main-style>p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .main-style>div>img{
+    margin: 30px 0 10px 0;
+ }
+ .main-style>div>article>h3{
+    margin: 10px;
+ }
+.main-style>button{
+    /* width: 120px; */
+    height: 30px;
+    color: white;
+    margin: 20px;
+    background-color: var(--fundoazul);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.plan-style{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+ 
 .preco{
-    font-size: 24px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+
     /* color: #333; */
 }
 .valor{
     font-size: 36px;
+    letter-spacing: 2px;
 }
 .centavos{
     font-size: 18px;
+    display: flex;
+    align-items: end;
 }
 
+.contato{
+    background-image: url(../assents/images/contato.png);
+    color: white;
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    
+    
+    
+}
+.contato>h1{
+    display: flex;
+    justify-content: center;
+}
+.contato>p{
+    display: flex;
+    text-align: center;
+}
 
+.contato>button{
+    border: 2px solid yellow;
+    width: 320px;
+    height: 30px;
+    color: white;
+    margin: 20px;
+    background-color: var(--fundoazul);
+    border-radius: 20px;
+    border: none;
+
+    cursor: pointer;
+}
+input{
+    background-color: transparent;
+    color: white;
+    border: hidden;
+}
+input::placeholder{
+    color: white;
+}
 
 
 /* orientacao desktop */
